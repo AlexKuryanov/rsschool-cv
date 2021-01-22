@@ -9,5 +9,28 @@ email: lexxus07@yandex.ru
 I worked as a logist in some courier-companies more than 15 years. I also had my own small company (is sold in 2016). 
 But I began burnout at this work. Last year I decided to change my field of activity. Since I took part in the description of business-processes for software-developers and I was really interessed in this process, so I decided to become a developer. Earlier I also made a couple of sites for my ex-company, so I choose the frontend-development.
 
+#### Hard skills
+I began learning a few months ago and got main knowledges in:
+* HTML:
+    * tags
+    * BEM
+* CSS: 
+    * selectors
+    * Less
+* Markdown
+    ```	
+    let calculateSalary = function (salary) {
+	      let percent = 0.35;
+	        if (salary >= 100000) {
+	          percent = 0.45;
+          }
+	        let net = Math.round(salary - (salary * percent));
+	        return net;
+	  };
+    ```
+    
+and basic knowledges in:
+* Git
+* JS
 
-
+Main editor I use is VS Code.
