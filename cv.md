@@ -33,4 +33,12 @@ and basic knowledges in:
 * Git
 * JS
 
-Main editor I use is VS Code.
+My main editor is VS Code.
+
+#### Education
+
+I ended interactive courses on [html-academy](https://htmlacademy.ru/profile/alexeykuryanov), continue to study on [Stepik](https://stepik.org/course/38218), [Hexlet](https://ru.hexlet.io/my) and others resources. My first projects are here: [OpiSuomi](https://alexkuryanov.github.io/OpiSuomi/suomi.html), [mySite](https://alexkuryanov.github.io/mySite/index.html).
+
+#### Soft skills
+
+English - A2 (studied one year at University, continue to study by myself)
