@@ -41,3 +41,78 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+body {  
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.header {
+}
+.header__title {
+}
+.header__text {
+}
+.about {
+}
+.about__title {
+}
+.section-title {
+}
+.about__text {
+}
+.education {
+}
+.education__title {
+}
+.education__item {
+}
+.education__date {
+}
+.education__describe {
+}
+.experience {
+}
+.experience__title {
+}
+.experience__item {
+}
+.experience__date {
+}
+.experience__describe {
+}
+.skills {
+}
+.skills__title {
+}
+.skills__list {
+}
+.skills__item {
+}
+.footer {
+}
+.footer__list {
+}
+.footer__contacts {
+}
+.footer__title {
+}
+.footer__contacts-list {
+}
+.footer__contacts-item {
+}
+.footer__follow {
+}
+.footer__follow-list {
+}
+.footer__follow-link {
+}
+.footer__languages {
+}
+.footer__languages-list {
+}
+.footer__languages-item {
+}
+.footer__hobbies {
+}
+.footer__hobbies-list {
+}
+.footer__hobbies-item {
+}
