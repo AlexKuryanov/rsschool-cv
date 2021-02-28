@@ -174,9 +174,17 @@ h6 {
 .skills__title {
   margin-bottom: 10px;
 }
-.skills__list {
+
+.skills__block {
+  display: flex;
+}
+
+.skills__list:last-child {
+  margin-left: 400px;
 }
 .skills__item {
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 .code {
