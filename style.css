@@ -91,14 +91,22 @@ h6 {
   box-shadow: 0 0 50px gray;
 }
 .container {
-  width: 1000px;
+  width: 800px;
   margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .header {
   background-color: pink;
 }
 .header__photo {
+  float: left;
+  margin: 30px;
   border-radius: 50%;
 }
 .header__title {
@@ -106,40 +114,62 @@ h6 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
+  text-align: center;
+  padding-top: 70px;
+  margin-bottom: 5px;
+  color: gray;
 }
 .header__text {
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
+  text-align: center;
+  color: gray;
 }
 .about {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .about__title {
+  margin-bottom: 10px;
 }
 .section-title {
   font-size: 24px;
   font-weight: 600;
-  border-bottom: 5px solid gray;
+  border-bottom: 4px solid gray;
 }
 .about__text {
+  line-height: 1.5;
 }
 .education {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.education__title {
+  margin-bottom: 10px;
 }
 .second__title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: gray;
   text-decoration-line: underline;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 .education__item {
 }
-.education__date {
+.date {
+  float: right;
 }
 .education__describe {
 }
 .experience {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .experience__title {
+  margin-bottom: 10px;
 }
 .experience__item {
 }
@@ -148,12 +178,23 @@ h6 {
 .experience__describe {
 }
 .skills {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .skills__title {
+  margin-bottom: 10px;
 }
 .skills__list {
 }
 .skills__item {
+}
+
+.code {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.code__title {
+  margin-bottom: 10px;
 }
 .footer {
   background-color: pink;

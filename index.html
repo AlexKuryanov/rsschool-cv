@@ -9,7 +9,7 @@
   </head>
   <body class="page">
     <header class="header">
-      <div class="container">
+      <div class="container clearfix">
         <figure>
           <img
             class="header__photo"
@@ -24,7 +24,7 @@
         <p class="header__text">Junior Frontend Developer</p>
       </div>
     </header>
-    <!--<main class="main-content">-->
+    <main class="main-content">
       <section class="about">
         <div class="container">
           <h2 class="about__title section-title">About</h2>
@@ -35,7 +35,7 @@
             Since I took part in the description of business-processes for
             software-developers and I was really interessed in this process, so
             I decided to become a developer. Earlier I also made a couple of
-            sites for my ex-company, so I choose the frontend-development.
+            sites for my ex-company, that's why I choose the frontend-development.
           </p>
         </div>
       </section>
@@ -44,27 +44,30 @@
         <h2 class="education__title section-title">Education</h2>
         <section class="education__item">
           <h3 class="second__title">Hexlet, Stepik, RS-School</h3>
-          <time class="education__date" datetime="2020-11-25"
+          <div class="date">
+            <time class="education__date" datetime="2020-11-25"
             >November 2020</time
-          >-<time class="education__date" datetime="2021-02-28">Until now</time>
+          >-<time class="education__date" datetime="2021-02-28">Until now</time></div>
           <p class="education__describe">Self-education</p>          
         </section>
         <section class="education__item">
           <div class="container">
           <h3 class="second__title">HTML academy</h3>
-          <time class="education__date" datetime="2020-08-25">August 2020</time
+          <div class="date"><time class="education__date" datetime="2020-08-25">August 2020</time
           >-<time class="education__date" datetime="2020-11-25"
             >November 2020</time
-          >
+          ></div>
+          
           <p class="education__describe">
             Passed interactive simulators from html-academy
           </p>          
         </section>
         <section class="education__item">
           <h3 class="second__title">Nizhyn Gogol State University</h3>
-          <time class="education__date" datetime="1996-09-01"
+          <div class="date"><time class="education__date" datetime="1996-09-01"
             >September 1996</time
-          >-<time class="education__date" datetime="2003-05-31">May 2003</time>
+          >-<time class="education__date" datetime="2003-05-31">May 2003</time></div>
+          
           <p class="education__describe">
             faculty: Foreign Languages, qualification: teacher of German
             language
@@ -77,31 +80,34 @@
         <h2 class="experience__title section-title">Experience</h2>
         <section class="experience__item">
           <h3 class="second__title">Courier-companies</h3>
-          <time class="experience__date" datetime="2016-11-17"
+          <div class="date"><time class="experience__date" datetime="2016-11-17"
             >November 2016</time
           >-<time class="experience__date" datetime="2020-07-31"
             >July 2020</time
-          >
+          ></div>
+          
           <p class="experience__describe">worked as a logist</p>
         </section>
         <section class="experience__item">
           <h3 class="second__title">Own project</h3>
-          <time class="experience__date" datetime="2011-01-01"
+          <div class="date"><time class="experience__date" datetime="2011-01-01"
             >January 2011</time
           >-<time class="experience__date" datetime="2016-11-17"
             >November 2016</time
-          >
+          ></div>
+          
           <p class="experience__describe">
             Organized own courier-service company
           </p>
         </section>
         <section class="experience__item">
           <h3 class="second__title">Courier-companies</h3>
-          <time class="experience__date" datetime="2006-01-15"
+          <div class="date"><time class="experience__date" datetime="2006-01-15"
             >January 2006</time
           >-<time class="experience__date" datetime="2010-12-31"
             >December 2010</time
-          >
+          ></div>
+          
           <p class="experience__describe">worked as a logist</p>
           </div>
         </section>
@@ -121,33 +127,34 @@
         </ul>
         </div>
       </section>
-      <section class="code-example">
+      <section class="code">
         <div class="container">
-        <h2 class="code section-title">Code example</h2>
+        <h2 class="code__title section-title">Code example</h2>
         <p>
           <details>
-            <summary>Example: carbon-dating.js</summary>
+            <summary>Example: </summary>
             <code>
-              const MODERN_ACTIVITY= 15; <br />
-              const HALF_LIFE_PERIOD= 5730; <br />
-              let age = 0; <br />
-              function dateSample(sampleActivity) { <br />
-              if (sampleActivity === String(Number(sampleActivity)) && <br />
-              Number(sampleActivity) > 0 && <br />
-              Number(sampleActivity) <= 15) { <br />
-              age = Math.log(MODERN_ACTIVITY / sampleActivity) / (Math.log(2) /
-              HALF_LIFE_PERIOD);<br />
-              return Math.ceil(age);<br />
-              } else { <br />
-              return false;<br />
-              } <br />
-              }</code
-            >
+              <pre>
+              const MODERN_ACTIVITY= 15; 
+              const HALF_LIFE_PERIOD= 5730;
+              let age = 0; 
+                function dateSample(sampleActivity) { 
+                  if (sampleActivity === String(Number(sampleActivity)) && 
+                      Number(sampleActivity) > 0 && 
+                      Number(sampleActivity) &lt;= 15) { 
+                      age = Math.log(MODERN_ACTIVITY / sampleActivity) / 
+                      (Math.log(2) / HALF_LIFE_PERIOD);
+                      return Math.ceil(age);
+                  } else { 
+                      return false;
+                    } 
+                }</pre>
+                </code>
           </details>
         </p>
         </div>
       </section>
-    <!--</main>-->
+    </main>
     <footer class="footer">
       <div class="container">
       <ul class="footer__list">
