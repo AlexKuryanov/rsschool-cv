@@ -70,9 +70,6 @@ a:hover {
 ul li {
   list-style: none;
 }
-img {
-  vertical-align: top;
-}
 
 h1,
 h2,
@@ -149,7 +146,7 @@ h6 {
 .education__title {
   margin-bottom: 10px;
 }
-.second__title {
+.second-title {
   font-size: 16px;
   font-weight: bold;
   color: gray;
@@ -157,13 +154,11 @@ h6 {
   margin-top: 20px;
   margin-bottom: 5px;
 }
-.education__item {
-}
+
 .date {
   float: right;
 }
-.education__describe {
-}
+
 .experience {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -171,12 +166,7 @@ h6 {
 .experience__title {
   margin-bottom: 10px;
 }
-.experience__item {
-}
-.experience__date {
-}
-.experience__describe {
-}
+
 .skills {
   margin-top: 20px;
   margin-bottom: 20px;
