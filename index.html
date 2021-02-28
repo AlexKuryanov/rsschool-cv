@@ -110,6 +110,30 @@
           <li class="skills__item">Figma</li>
         </ul>
       </section>
+      <section class="code-example">
+        <h2 class="code section-title">Code example</h2>
+        <p>
+          <details>
+            <summary>Example</summary>
+            <code>
+              const MODERN_ACTIVITY= 15; <br />
+              const HALF_LIFE_PERIOD= 5730; <br />
+              let age = 0; <br />
+              function dateSample(sampleActivity) { <br />
+              if (sampleActivity === String(Number(sampleActivity)) && <br />
+              Number(sampleActivity) > 0 && <br />
+              Number(sampleActivity) <= 15) { <br />
+              age = Math.log(MODERN_ACTIVITY / sampleActivity) / (Math.log(2) /
+              HALF_LIFE_PERIOD);<br />
+              return Math.ceil(age);<br />
+              } else { <br />
+              return false;<br />
+              } <br />
+              }</code
+            >
+          </details>
+        </p>
+      </section>
     </main>
     <footer class="footer">
       <ul class="footer__list">
