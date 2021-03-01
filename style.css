@@ -114,7 +114,7 @@ h6 {
   text-align: center;
   padding-top: 70px;
   margin-bottom: 5px;
-  color: gray;
+  color: rgb(66, 65, 65);
 }
 .header__text {
   font-size: 16px;
@@ -198,33 +198,29 @@ h6 {
   background-color: pink;
 }
 .footer__list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
-.footer__contacts {
+.footer__main-item {
+  flex-basis: 25%;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.footer__main-item:last-child {
+  margin-right: 0;
 }
 .footer__title {
   background-color: gray;
   font-size: 18px;
   color: white;
+  margin-bottom: 15px;
+  margin-top: -20px;
+  padding: 5px;
 }
-.footer__contacts-list {
-}
-.footer__contacts-item {
-}
-.footer__follow {
-}
-.footer__follow-list {
-}
-.footer__follow-link {
-}
-.footer__languages {
-}
-.footer__languages-list {
-}
-.footer__languages-item {
-}
-.footer__hobbies {
-}
-.footer__hobbies-list {
-}
-.footer__hobbies-item {
+
+.footer__item {
+  font-size: 18px;
+  line-height: 1.5;
 }
