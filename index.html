@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Aleksei Kurianov - CV Junior Frontend-developer</title>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container clearfix">
+        <figure>
+          <img
+            class="header__photo"
+            src="img/me2.jpg"
+            width="100"
+            height="100"
+            alt="My photo"
+          >
+        </figure>
+
+        <h1 class="header__title">Alex Kuryanov</h1>
+        <p class="header__text">Junior Frontend Developer</p>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="about">
+        <div class="container">
+          <h2 class="about__title section-title">About</h2>
+          <p class="about__text">
+            I worked as a logist in some courier-companies more than 15 years. I
+            also had my own small company (is sold in 2016). But I began burnout
+            at this work. Last year I decided to change my field of activity.
+            Since I took part in the description of business-processes for
+            software-developers and I was really interessed in this process, so
+            I decided to become a developer. Earlier I also made a couple of
+            sites for my ex-company, that's why I choose the
+            frontend-development.
+          </p>
+        </div>
+      </section>
+
+      <section class="education">
+        <div class="container">
+          <h2 class="education__title section-title">Education</h2>
+
+          <section class="education__item">
+            <h3 class="second-title">Hexlet, Stepik, RS-School</h3>
+            <div class="date">
+              <time class="education__date" datetime="2020-11-25">November 2020</time>-
+                <time class="education__date" datetime="2021-02-28">Until now</time>
+            </div>
+            <p class="education__describe">Self-education</p>
+          </section>
+          <section class="education__item">
+            <h3 class="second-title">HTML academy</h3>
+            <div class="date">
+              <time class="education__date" datetime="2020-08-25">August 2020</time>-
+              <time class="education__date" datetime="2020-11-25">November 2020</time>
+            </div>
+            <p class="education__describe">
+              Passed interactive simulators from html-academy
+            </p>
+          </section>
+          <section class="education__item">
+            <h3 class="second-title">Nizhyn Gogol State University, Ukraine</h3>
+            <div class="date">
+              <time class="education__date" datetime="1996-09-01">September 1996</time>-
+                <time class="education__date" datetime="2003-05-31">May 2003</time>
+            </div>
+
+            <p class="education__describe">
+              faculty: Foreign Languages, qualification: teacher of German
+              language
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="experience">
+        <div class="container">
+          <h2 class="experience__title section-title">Experience</h2>
+          <section class="experience__item">
+            <h3 class="second-title">Courier-companies</h3>
+            <div class="date">
+              <time class="experience__date" datetime="2016-11-17">November 2016</time>-
+                <time class="experience__date" datetime="2020-07-31">July 2020</time>
+            </div>
+            <p class="experience__describe">worked as a logist</p>
+          </section>
+          <section class="experience__item">
+            <h3 class="second-title">Own project</h3>
+            <div class="date">
+              <time class="experience__date" datetime="2011-01-01">January 2011</time>-
+                <time class="experience__date" datetime="2016-11-17">November 2016</time>
+            </div>
+
+            <p class="experience__describe">
+              Organized own courier-service company
+            </p>
+          </section>
+          <section class="experience__item">
+            <h3 class="second-title">Courier-companies</h3>
+            <div class="date">
+              <time class="experience__date" datetime="2006-01-15">January 2006</time>-
+                <time class="experience__date" datetime="2010-12-31">December 2010</time>
+            </div>
+            <p class="experience__describe">worked as a logist</p>
+          </section>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container clearfix">
+          <h3 class="skills__title section-title">Hard skills</h3>
+          <div class="skills__block">
+            <ul class="skills__list">
+              <li class="skills__item">HTML</li>
+              <li class="skills__item">CSS</li>
+              <li class="skills__item">Flex</li>
+              <li class="skills__item">Grid</li>
+            </ul>
+            <ul class="skills__list">
+              <li class="skills__item">JavaScript</li>
+              <li class="skills__item">Git</li>
+              <li class="skills__item">Less</li>
+              <li class="skills__item">Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="code">
+        <div class="container">
+          <h2 class="code__title section-title">Code example</h2>
+          <details>
+            <summary>Example:</summary>
+            <pre>
+              const MODERN_ACTIVITY= 15; 
+              const HALF_LIFE_PERIOD= 5730;
+              let age = 0; 
+                function dateSample(sampleActivity) { 
+                  if (sampleActivity === String(Number(sampleActivity)) && 
+                      Number(sampleActivity) > 0 && 
+                      Number(sampleActivity) &lt;= 15) { 
+                      age = Math.log(MODERN_ACTIVITY / sampleActivity) / 
+                      (Math.log(2) / HALF_LIFE_PERIOD);
+                      return Math.ceil(age);
+                  } else { 
+                      return false;
+                    } 
+                }</pre
+            >
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__main-item">
+            <h4 class="footer__title">Languages</h4>
+            <ul class="footer__languages-list">
+              <li class="footer__item">Ukrainian - C2</li>
+              <li class="footer__item">German - B2</li>
+              <li class="footer__item">English - A2</li>
+              <li class="footer__item">Finnish - A1</li>
+            </ul>
+          </li>
+
+          <li class="footer__main-item">
+            <h4 class="footer__title">Hobbies</h4>
+            <ul class="footer__hobbies-list">
+              <li class="footer__item">Fishing</li>
+              <li class="footer__item">Travel</li>
+              <li class="footer__item">Gardening</li>
+              <li class="footer__item">Woodworking</li>
+            </ul>
+          </li>
+
+          <li class="footer__main-item">
+            <h4 class="footer__title">Follow me</h4>
+            <ul class="footer__follow-list">
+              <li class="footer__item">
+                <a class="footer__link" href="http://vk.com/kuryanov79" target="_blank">
+                  https://vk.com/kuryanov79</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="https://AlexKuryanov.github.io/rsschool-cv/cv" target="_blank">
+                  https://alexkuryanov.github.io</a>
+              </li>
+              <li class="footer__item"><a href="https://rs.school/js/" target="_blank"><img src="img/rs_school_js.svg" width="100" height="50" alt="rsschool logo"></a></li>
+              <li class="footer__item"></li>
+            </ul>
+          </li>
+          
+          <li class="footer__main-item">
+            <h4 class="footer__title">Contacts</h4>
+            <ul class="footer__contacts-list">
+              <li class="footer__item">
+                <address>Moscow, Russia</address>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="mailto:lexxus07@yandex.ru"> lexxus07@yandex.ru</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="tel:+79266587787">+7-926-658-77-87</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="https://AlexKuryanov.github.io/mySite" target="_blank">
+                  https://alexkuryanov.github.io</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
