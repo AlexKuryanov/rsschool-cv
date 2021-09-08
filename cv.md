@@ -1,9 +1,9 @@
-# Alexey Kuryanov
+# Aleksei Kurianov
 ### Junior Frontend-developer
 
-tel: +7-926-658-77-87
-email: lexxus07@yandex.ru
-Telegram: 
+tel: +7-926-658-77-87  
+email: lexxus07@yandex.ru  
+GitHub: [https://github.com/AlexKuryanov](https://github.com/AlexKuryanov)   
 
 #### About
 
@@ -13,15 +13,11 @@ But I began burnout at this work. Last year I decided to change my field of acti
 #### Hard skills
 I began learning a few months ago and got main knowledges in:
 * HTML & CSS:
-    * tags
     * BEM
     * Pug
-    * selectors
-    * Less
     * Scss
     * Flex
-    * Grid
-    
+    * Grid    
 * Markdown
 * Figma
 * Git
@@ -57,7 +53,7 @@ var rotateMatrix = arr => {
 
 I ended interactive courses on [html-academy](https://htmlacademy.ru/profile/alexeykuryanov), [Stepik](https://stepik.org/users/290011763/certificates), [Hexlet](https://ru.hexlet.io/my) and others resources. Continue to study at RS School.
 
-My projects are here: [Travel](https://alexkuryanov.github.io/travel/), [MoGo](https://alexkuryanov.github.io/mogo/), [training project from BeOnMax](https://alexkuryanov.github.io/beonmax/src/index.html). 
+Some of my trainings projects are here: [Travel](https://alexkuryanov.github.io/travel/), [MoGo](https://alexkuryanov.github.io/mogo/), [BeOnMax](https://alexkuryanov.github.io/beonmax/src/index.html). 
 
 #### Languages
 
