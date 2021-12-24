@@ -10,6 +10,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   box-shadow: 0 0 20px 0 rgba(41, 99, 148, .8);
   background-color: whitesmoke;
+  color: rgb(57, 62, 66);
 }
 
 .main-content {
@@ -36,6 +37,10 @@ body {
 .header__photo {
   border: 10px solid rgba(41, 99, 148, .8);
   border-radius: 50%;
+}
+
+.header__title {
+  text-transform: uppercase;
 }
 
 /* Footer */
