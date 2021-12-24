@@ -1,247 +1,50 @@
-/*
- * Обнуляющий файл
-*/
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+html {
+  background-color: rgba(119, 119, 119, .5);
 }
 
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-:focus,
-:active {
-  outline: none;
-}
-a:focus,
-a:active {
-  outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-
-html,
 body {
-  /*height: 100%;*/
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-button {
-  cursor: pointer;
-}
-button::-moz-focus-inner {
+  width: 85%;
+  margin: 5px auto;
   padding: 0;
-  border: 0;
-}
-a,
-a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
-ul li {
-  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 0 0 20px 0 rgba(8, 178, 230, 0.5);
+  background-color: whitesmoke;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: 400;
-}
-.page {
-  width: 1200px;
-  margin: 0 auto;
-
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 16px;
-
-  box-shadow: 0 0 50px gray;
-}
-.container {
-  width: 800px;
-  margin: 0 auto;
+.main-content {
+  display: flex;
+  column-gap: 30px;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+.personality {
+  width: 40%;
+  background-color: rgba(8, 178, 230, .5);
 }
 
 .header {
-  background-color: pink;
+  padding: 10px;
+  text-align: center;
+  background-color: whitesmoke;
 }
-.header__photo {
-  float: left;
-  margin: 30px;
 
+.header__img {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.header__photo {
+  border: 7px solid rgba(8, 178, 230, .5);
   border-radius: 50%;
 }
-.header__title {
-  padding-top: 70px;
-  margin-bottom: 5px;
 
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center;
-
-  color: rgb(66, 65, 65);
-}
-.header__text {
-  font-size: 16px;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-align: center;
-  color: gray;
-}
-.about {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.about__title {
-  margin-bottom: 10px;
-}
-.section-title {
-  font-size: 24px;
-  font-weight: 600;
-
-  border-bottom: 4px solid gray;
-}
-.about__text {
-  line-height: 1.5;
-}
-.education {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.education__title {
-  margin-bottom: 10px;
-}
-.second-title {
-  margin-top: 20px;
-  margin-bottom: 5px;
-
-  font-size: 16px;
-  font-weight: bold;
-  color: rgb(54, 53, 53);
-  /*text-decoration: underline;*/
-}
-
-.date {
-  float: right;
-}
-
-.experience {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.experience__title {
-  margin-bottom: 10px;
-}
-
-.skills {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.skills__title {
-  margin-bottom: 10px;
-}
-
-.skills__block {
-  display: flex;
-}
-
-.skills__list:last-child {
-  margin-left: 400px;
-}
-.skills__item {
-  margin-top: 10px;
-
-  font-size: 18px;
-}
-
-.code {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.code__title {
-  margin-bottom: 10px;
-}
+/* Footer */
 .footer {
-  background-color: pink;
+  background-color: #505050;
 }
-.footer__list {
+.footer__links {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
-.footer__main-item {
-  flex-basis: 25%;
-
-  margin-top: 10px;
-  margin-right: 20px;
-
-  font-size: 18px;
-}
-.footer__main-item:last-child {
-  margin-right: 0;
-}
-.footer__title {
-  margin-bottom: 15px;
-  margin-top: -20px;
-  padding: 5px;
-
-  font-size: 18px;
-  color: white;
-
-  background-color: gray;
-}
-
-.footer__item,
-.footer__link {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.footer__link {
-  color: rgb(66, 65, 65);
-}
-
-.footer__link:hover {
-  text-decoration: underline;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100px;
 }
