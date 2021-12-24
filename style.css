@@ -1,5 +1,5 @@
 html {
-  background-color: rgba(119, 119, 119, .5);
+  background-color: rgba(57, 62, 66, .2);
 }
 
 body {
@@ -8,7 +8,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
-  box-shadow: 0 0 20px 0 rgba(8, 178, 230, 0.5);
+  box-shadow: 0 0 20px 0 rgba(41, 99, 148, .8);
   background-color: whitesmoke;
 }
 
@@ -18,8 +18,8 @@ body {
 }
 
 .personality {
-  width: 40%;
-  background-color: rgba(8, 178, 230, .5);
+  width: 315px;
+  background-color: rgba(41, 99, 148, .8);
 }
 
 .header {
@@ -34,17 +34,29 @@ body {
 }
 
 .header__photo {
-  border: 7px solid rgba(8, 178, 230, .5);
+  border: 10px solid rgba(41, 99, 148, .8);
   border-radius: 50%;
 }
 
 /* Footer */
 .footer {
-  background-color: #505050;
+  background-color: rgb(57, 62, 66);
 }
 .footer__links {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 100px;
+}
+
+.footer__link svg {
+  width: 40px;
+  height: 40px;
+  fill: whitesmoke;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: whitesmoke;
 }
