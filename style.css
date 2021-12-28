@@ -3,16 +3,18 @@
 }
 
 html {
-  background-color: rgba(57, 62, 66, .2);
+  background-color: rgba(57, 62, 66, 0.2);
 }
 
 body {
   width: 85%;
+  max-width: 1440px;
+  min-width: 650px;
   margin: 5px auto;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
-  box-shadow: 0 0 20px 0 rgba(41, 99, 148, .8);
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 0 0 20px 0 rgba(41, 99, 148, 0.8);
   background-color: whitesmoke;
   color: rgb(57, 62, 66);
 }
