@@ -134,6 +134,24 @@ address {
 /* Left column ends*/
 
 /* Right column starts*/
+
+.skills__block {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 50px;
+}
+
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.skills__item {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 pre {
   background-color: floralwhite;
   max-width: 475px;
