@@ -3,8 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFD6D2;}
-	.st1{fill:#505050;}
+	.st0{fill:rgba(41, 99, 148, 0.8);}
+	.st1{fill:rgb(57, 62, 66);}
 </style>
 <g>
 	<ellipse class="st0" cx="10" cy="10" rx="10" ry="10"/>
