@@ -49,12 +49,14 @@
             <h4 class="aside__title">Follow me</h4>
             <ul class="aside__nested-list follow-list">
               <li class="aside__item follow-item">
+                <img src="img/vk.svg" width="20" height="20" alt="vk-icon">
                 <a class="aside__link" href="http://vk.com/kuryanov79" target="_blank">
-                  https://vk.com/kuryanov79</a>
+                  VKontakte</a>
               </li>
               <li class="aside__item">
-                <a class="aside__link" href="https://AlexKuryanov.github.io/rsschool-cv/cv" target="_blank">
-                  https://alexkuryanov.github.io</a>
+                <img src="img/github1.svg" width="20" height="20" alt="vk-icon">
+                <a class="aside__link" href="https://github.com/AlexKuryanov/AlexKuryanov" target="_blank">
+                  GitHub</a>
               </li>
             </ul>
           </li>
@@ -63,16 +65,22 @@
             <h4 class="aside__title contacts-title">Contacts</h4>
             <ul class="aside__nested-list contacts-list">
               <li class="aside__item contacts-adr">
+                <img src="img/globe-europe-solid.svg" alt="globe-icon" width="20" height="20">
                 <address>Moscow, Russia</address>
               </li>
               <li class="aside__item contacts-mail">
+                <img src="img/email.svg" width="20" height="20" alt="">
                 <a class="aside__link" href="mailto:lexxus07@yandex.ru">
                   lexxus07@yandex.ru</a>
               </li>
               <li class="aside__item contacts-tel">
+                <img src="img/phone.svg" width="20" height="20" alt="phone-icon">
                 <a class="aside__link" href="tel:+79266587787">+7-926-658-77-87</a>
               </li>
               <li class="aside__item contacts-tg">
+                <img src="img/telegram.svg" width="20" height="20" alt="telegram icon">
+                <a class="aside__link" href="https://t.me/Xelruk" target="_blank">
+                  Telegram</a>
               </li>
             </ul>
           </li>
@@ -195,20 +203,23 @@
           <details>
             <summary>Example:</summary>
             <pre>
-                    const MODERN_ACTIVITY= 15;
-                    const HALF_LIFE_PERIOD= 5730;
-                    let age = 0;
-                      function dateSample(sampleActivity) {
-                        if (sampleActivity === String(Number(sampleActivity)) &&
-                            Number(sampleActivity) > 0 &&
-                            Number(sampleActivity) &lt;= 15) {
-                            age = Math.log(MODERN_ACTIVITY / sampleActivity) /
-                            (Math.log(2) / HALF_LIFE_PERIOD);
-                            return Math.ceil(age);
-                        } else {
-                            return false;
-                          }
-                      }</pre>
+          const MODERN_ACTIVITY= 15;
+          const HALF_LIFE_PERIOD= 5730;
+          let age = 0;
+            function dateSample(sampleActivity) {
+              if (sampleActivity ===
+              String(Number(sampleActivity)) &&
+                  Number(sampleActivity) > 0 &&
+                  Number(sampleActivity) &lt;= 15) {
+                  age = Math.log(MODERN_ACTIVITY /
+                  sampleActivity) /
+                  (Math.log(2) / HALF_LIFE_PERIOD);
+                  return Math.ceil(age);
+              } else {
+                  return false;
+                }
+            }
+            </pre>
           </details>
         </div>
       </section>
