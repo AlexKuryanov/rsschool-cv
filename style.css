@@ -28,6 +28,7 @@ body {
 .personality {
   min-width: 315px;
   max-width: 350px;
+  background-color: rgba(41, 99, 148, 0.8);
 }
 
 /* Header styles */
@@ -44,12 +45,19 @@ body {
 }
 
 .header__photo {
-  border: 10px solid rgba(41, 99, 148, .8);
+  border: 10px solid rgba(41, 99, 148, 0.8);
   border-radius: 50%;
 }
 
 .header__title {
   text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.header__text {
+  margin-top: 0;
+}
+
 /* Aside styles */
 }
 
