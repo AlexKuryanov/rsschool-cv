@@ -127,7 +127,24 @@ address {
 /* Left column ends*/
 
 /* Right column starts*/
+pre {
+  background-color: floralwhite;
+  max-width: 475px;
+}
+
+@media (max-width: 1000px) {
+  pre {
+    margin-left: -185px;
+  }
+}
+
+@media (max-width: 650px) {
+  pre {
+    margin-left: -325px;
+  }
+}
 /* Right column ends*/
+
 /* Footer */
 .footer {
   background-color: rgb(57, 62, 66);
