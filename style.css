@@ -59,8 +59,71 @@ body {
 }
 
 /* Aside styles */
+.aside {
+  padding: 0 10px 10px;
+  height: 68%;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.aside__list {
+  height: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.aside__main-item {
+  height: 25%;
+}
+
+.aside__title {
+  background-color: rgb(57, 62, 66);
+  display: inline-block;
+  width: 140px;
+  color: whitesmoke;
+  margin-top: 40px;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.aside__nested-list {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 20px;
+  padding: 0 0 0 20px;
+}
+
+.contacts-title {
+  transform: translateY(-50%);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.aside__item img {
+  display: inline-block;
+  vertical-align: middle;
+}
+address {
+  display: inline-block;
+  line-height: 1.5;
+}
+.aside__link {
+  color: inherit;
+  text-decoration: none;
+  line-height: 1.5;
+}
 /* Left column ends*/
 
 /* Right column starts*/
