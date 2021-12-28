@@ -24,10 +24,13 @@ body {
   column-gap: 30px;
 }
 
+/* Left column starts*/
 .personality {
   min-width: 315px;
   max-width: 350px;
 }
+
+/* Header styles */
 
 .header {
   padding: 10px;
@@ -47,8 +50,13 @@ body {
 
 .header__title {
   text-transform: uppercase;
+/* Aside styles */
 }
 
+/* Left column ends*/
+
+/* Right column starts*/
+/* Right column ends*/
 /* Footer */
 .footer {
   background-color: rgb(57, 62, 66);
