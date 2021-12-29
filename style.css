@@ -199,6 +199,31 @@ address {
   flex: 0 1 25%;
 }
 
+.projects__item img {
+  opacity: .7;
+  transition: opacity .3s linear;
+}
+
+.projects__item:hover img {
+  opacity: 1;
+}
+
+.projects__link {
+  color: rgb(57, 62, 66);
+  text-decoration: none;
+  font-size: 12px;
+  box-shadow: none;
+  transition: all .3s linear;
+}
+
+.projects__link:hover {
+  color: rgba(41, 99, 148, 0.8);
+}
+
+.projects__link:active {
+  color: rgb(65, 158, 115);
+}
+
 pre {
   background-color: floralwhite;
   max-width: 475px;
