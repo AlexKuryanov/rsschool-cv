@@ -21,7 +21,6 @@ body {
 
 .main-content {
   display: flex;
-  column-gap: 30px;
 }
 
 /* Left column starts*/
