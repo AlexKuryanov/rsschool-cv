@@ -159,6 +159,17 @@ address {
   flex: 1;
 }
 
+.experience__link {
+  text-decoration: none;
+  color: rgba(41, 99, 148, 0.8);
+  transition: all 0.3s linear;
+}
+
+.experience__link:hover {
+  color: rgba(2, 55, 99, 0.8);
+  text-decoration: underline;
+}
+
 .content p {
   margin: 0;
   margin-left: 45px;
@@ -168,9 +179,10 @@ address {
   margin-bottom: 10px;
 }
 
-.education p:nth-of-type(3){
+p.end {
   margin-bottom: 15px;
 }
+
 .skills__block {
   display: flex;
   justify-content: space-evenly;
